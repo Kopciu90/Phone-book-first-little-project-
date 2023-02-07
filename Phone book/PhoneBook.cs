@@ -18,8 +18,6 @@ namespace Phone_book
         public void DisplayContact(string number)
         {
             var contact = Contacts.FirstOrDefault(x => x.Number == number);
-
-
         }
     }
 }
